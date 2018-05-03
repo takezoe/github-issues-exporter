@@ -18,7 +18,7 @@ oauth=4d98173f7c075527cb64878561d1fe70
 Then run the program with a argument to specify the target project:
 
 ```
-$ sbt run "Main owner/repository"
+$ sbt "run owner/repository"
 ```
 
 All all issues and pull requests data will be exported to `export.json`.
